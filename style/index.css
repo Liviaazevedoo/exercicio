@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.div-card{
+    border: 1px solid rgba(0, 0, 0, 0.999);
+    width: 10%;
+    /*text-align: center;*/
+
+}
+
+.div-card  img {
+width: 100%;
+}
+.section-cards{
+    display: flex;
+    gap: 20px;
+}
+.tag-p{
+    top: 0;
+    right: 0;
+    /*z-index: -1;*/
+    position: absolute;
+    background-color: chartreuse;
+    width: fit-content;
+    padding: 1px 3px;
+    border-radius: 10px;
+}
+
+.div-img {
+    position: relative;
+}
