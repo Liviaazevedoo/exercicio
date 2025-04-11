@@ -1,0 +1,111 @@
+:root{
+    --primary: #6495ed;
+    --secundary: #9400d364;
+    --purple-light: #9f5ee9;
+    --purple-bold: #720d7b;
+    --white: #f0f8ff;
+}
+
+
+
+* {
+    margin: 0; /* espaçamento externo */
+    padding: 0; /* espaçamento interno */
+    outline: 0; /* linha fora da barra*/
+    border: 0; /* borda*/
+    box-sizing: border-box; /* border: 1px solid black; */
+    resize: none; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--purple-light);
+    margin: 100px;
+    height: 85vh;
+    display: flex;
+    justify-content: flex-end; /*move conteudo para direita*/
+    align-items: center;
+    padding: 5%;
+
+}
+.container{
+    width: 300px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 1);
+}
+main {
+    background-color: var(--primary);
+    width: 30%;
+    padding: 40px;
+    
+}
+#nome, #email, #senha{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+#data{
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+  textarea{
+    width: 100%;
+    margin: 15px 0;
+  }
+  #genero{
+    display: block;
+    margin: 5px 0;
+  }
+  .div-stack{
+    display: block;
+  }
+  button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background-color: var(--white);
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+  }
+  button:hover{
+    background-color: rgba(128, 255, 0, 0.459);
+  }
+#turno{
+    margin: 15px 0;
+}
+.imagem{
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 600px;
+    border-radius: 10px;
+    float: left;
+}
+.text{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0, 5);
+    padding: 10px;
+    border-radius: 8px;
+    width: 60%;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
+
+}
+
+
+
