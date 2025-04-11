@@ -5,6 +5,7 @@
     outline: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Inter", sans-serif;
 
 }
 
@@ -12,19 +13,21 @@
     border: 1px solid rgba(0, 0, 0, 0.999);
     width: 10%;
     /*text-align: center;*/
+    padding: 5px;
 
 }
 
 .div-card  img {
 width: 100%;
 }
+
 .section-cards{
     display: flex;
     gap: 20px;
 }
 .tag-p{
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
     /*z-index: -1;*/
     position: absolute;
     background-color: chartreuse;
@@ -35,4 +38,36 @@ width: 100%;
 
 .div-img {
     position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
 }
+    h2 > a {
+        font-size: 12px;
+    }
+    .div-titulo h1{
+        font-size: 20px;
+    }
+
+    .div-titulo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .div-texto {
+    padding: 10px;
+    }
+    
+    .div-titulo button{
+        background-color: black;
+        color: aliceblue;
+        width: 25px;
+        height: 25px;
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 2px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+   
